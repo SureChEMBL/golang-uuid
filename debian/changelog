@@ -1,0 +1,32 @@
+golang-github-hashicorp-uuid (0.0~git20160311.0.ebb0a03-2) unstable; urgency=medium
+
+  * Remove unneeded Depends on golang-go from the -dev package
+  * Use debhelper (>= 10)
+  * Add "Testsuite: autopkgtest-pkg-go" to debian/control
+
+ -- Anthony Fok <foka@debian.org>  Tue, 25 Jul 2017 10:39:27 -0600
+
+golang-github-hashicorp-uuid (0.0~git20160311.0.ebb0a03-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tim Potter ]
+  * Add me to uploaders
+
+  [ Anthony Fok ]
+  * New upstream snapshot.
+  * Bump Standards-Version to 4.0.0:
+    Use https form of the copyright-format URL in debian/copyright.
+  * Add myself to the list of Uploaders.
+  * Build-Depends on golang-any instead of golang-go.
+  * Update debian/gbp.conf to do without a ../build-area/ directory.
+
+ -- Anthony Fok <foka@debian.org>  Sun, 09 Jul 2017 09:50:08 -0600
+
+golang-github-hashicorp-uuid (0.0~git20160218.0.6994546-1) unstable; urgency=medium
+
+  * Initial release (Closes: #816816).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 06 Mar 2016 00:37:56 +1100
